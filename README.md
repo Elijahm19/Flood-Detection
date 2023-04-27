@@ -7,11 +7,9 @@ Abstract
 Water related natural disasters are an imminent threat for many. Homes are destroyed, infrastructure is damaged, people are displaced and are in need for resources. In Louisiana, hurricanes are an annual threat; ergo the necessity for predicting the areas susceptible to flooding. In this multi-model program, I compared images before and after flooding to compare the dissimilarity between them. To train my model I will be using Fast.ai’s vision_learner module which defines a convolution neural network (CNN).
 
 I.	INTRODUCTION
-
 For this project, I was inspired to do my project on a flood predictor system because for one, I am interested in image classification and secondly, I have family in the city of New Orleans which gets about 64 inches of rain annually. In the case of a natural disaster such as a hurricane, detecting if an area is flooded or not is important for the first responders, the information they receive aids them with figuring out the resources they need. This project idea sparked my interest because I like the idea of a machine learning model determining something based on an image. Other methods for flood prediction have also been in practice, for example, To aid in flood detection, drones have been of great importance. “Drones equipped with sensors and latest algorithms (e.g., computer vision and deep learning) have emerged as a potential platform which may be useful for flood monitoring, mapping and detection activities in a more efficient way than current practice.”[1]. In this project, I am going to use Fast.ai’s libraries to build a machine learning model which can predict if a given area is flooded or not. This model will aid in the forefront of using A.I. to solve challenging problems caused by natural disasters.
 
 II.	THEORY  OR RELATD WORKS 
-
 For my data analysis, I used Fast.AI.s Vision_learner module which is a convolution neural network. This CNN was vital for training my model and getting accurate predictions .Fast.ai’s CNN uses resNet-18 which is a convolutional neural network that is 18 layers deep. You can load a pretrained version of the network trained on more than a million images from the ImageNet database.
 
 III.	MATERIALS AND METHODS  
