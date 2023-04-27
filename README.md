@@ -55,6 +55,7 @@ Figure 5. Image flood probability before testing again.
 Figure 6. Testing image again after optimizing CNN 
 
 IV.	DISCUSSION AND CONCLUSION 
+
 Overall, I noticed that since all the images in the training set are top-down view, the model did not perform well with images closer to the ground. Though some images close to the ground did perform well before the model was optimized, most did not perform so well. After optimization, the model could predict the photos closer to the ground more efficiently. Additionally, If the model were originally trained with images closer to the ground, there would be no need for optimization if it performed well already.
 
 
